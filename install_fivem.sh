@@ -645,7 +645,7 @@ else
 
 echo ""
 
-echo \-e "\033[1;36m ./$file fivem\033[0m     | Pentru a instala un server fivem." 
+echo -e "\033[1;36m ./$file fivem\033[0m     | Pentru a instala un server fivem." 
   
 echo ""  
   
