@@ -8,7 +8,7 @@ Instructiuni:
 
 2. Scrieti comanda `cd` in PuTTY. Copiati comanda si dati click-dreapta in fereastra PuTTY, apoi apasati ENTER.
 
-3. Scrieti comanda `git clone https://github.com/youthfulzone/install_fivem.git; mv ~/install_fivem/install_fivem.sh ..; rm -rf install_fivem; chmod 777 install_fivem.sh`. Din nou copiati comanda si dati click dreapta in fereastra PuTTY, apoi apasati ENTER.
+3. Scrieti comanda `git clone https://github.com/youthfulzone/install_fivem.git; sudo mv ~/install_fivem/install_fivem.sh ..; rm -rf install_fivem; chmod 777 install_fivem.sh`. Din nou copiati comanda si dati click dreapta in fereastra PuTTY, apoi apasati ENTER.
 
 4. Scrieti comanda `./install_fivem.sh fivem` pentru a instala un nou server FiveM.
 
