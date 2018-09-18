@@ -1,3 +1,3 @@
 # FIshy Hosting - FiveM Install
 
-'test'
+`git status`
