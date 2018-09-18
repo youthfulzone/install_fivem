@@ -14,6 +14,7 @@ Instructiuni:
 
 5. Dupa instalarea cu succes a primului server FiveM o sa fie afisate o lista cu comenzile disponibile ale serverului respectiv.
 
+> Foarte important! Acest script functioneaza fara buguri doar pe VPS-urile noastre Ubuntu cu support. Nu garantam functionarea in parametri normali pe alte sisteme.
 
 Acest script va oferi posibilitatea sa porniti/ opriti/ reporniti/ reinstalati/ upgradati/ stergeti serverul. 
 
