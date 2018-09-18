@@ -6,10 +6,14 @@ Instructiuni:
 
 1. Intrati in PuTTY: https://wiki.fishy-hosting.ro/putty.php
 
-2. Scrieti comanda `cd` in PuTTY. Copiati comanda si dati click-dreapta in fereastra PuTTY.
+2. Scrieti comanda `cd` in PuTTY. Copiati comanda si dati click-dreapta in fereastra PuTTY, apoi apasati ENTER.
 
-3. Scrieti comanda `git clone https://github.com/youthfulzone/install_fivem.git`. Din nou copiati comanda si dati click dreapta in fereastra PuTTY.
+3. Scrieti comanda `git clone https://github.com/youthfulzone/install_fivem.git; mv ~/install_fivem/install_fivem.sh ..; rm -rf install_fivem; chmod 777 install_fivem.sh`. Din nou copiati comanda si dati click dreapta in fereastra PuTTY, apoi apasati ENTER.
 
-4. 
+4. Scrieti comanda `./install_fivem.sh fivem` pentru a instala un nou server FiveM.
 
-`git status`
+5. Dupa instalarea cu succes a primului server FiveM o sa fie afisate o lista cu comenzile disponibile ale serverului respectiv.
+
+
+Acest script va oferi posibilitatea sa porniti/ opriti/ reporniti/ reinstalati/ upgradati/ stergeti serverul. 
+
