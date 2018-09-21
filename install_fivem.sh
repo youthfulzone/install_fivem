@@ -352,7 +352,7 @@ if [ -d "\$path" ]; then
 
       fi
 
-      cd $loc
+      cd \$loc
 
       screen -L -d -m -S \$name bash -c "sh \${path}run.sh +exec server.cfg"
 
@@ -362,7 +362,7 @@ if [ -d "\$path" ]; then
 
         echo ""
 
-        echo -e "\033[0;32mServerul a fost pornit cu succes.\033[0m"
+        echo \-e "\033[0;32mServerul a fost pornit cu succes.\033[0m"
 
         echo ""
 
