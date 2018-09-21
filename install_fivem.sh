@@ -352,17 +352,21 @@ if [ -d "\$path" ]; then
 
       fi
 
+      cd $loc
+
       screen -L -d -m -S \$name bash -c "sh \${path}run.sh +exec server.cfg"
 
       sleep 3
 
       if screen -list | grep -q \$name; then >/dev/null 2>&1
 
+        echo ""
+
         echo -e "\033[0;32mServerul a fost pornit cu succes.\033[0m"
 
         echo ""
 
-        echo "Puteti accesa serverul la IP: "
+        echo "Puteti accesa serverul la IP: $ip"
 
         echo ""
 
