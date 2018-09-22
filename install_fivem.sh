@@ -5,6 +5,8 @@ file=`basename "$0"`
 function newFivemServer()
 {
 
+yes | sudo apt-get install xz-utils
+
 set -e
 
 function cleanup_exit {
