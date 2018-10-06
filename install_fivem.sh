@@ -452,7 +452,7 @@ echo ""
 
 read -r -p "Sigur doresti asta? [Da/Nu] (CTRL + D pentru a iesi din consola): " response
 
-response=
+response=\$(echo "\$response" | tr '[:upper:]' '[:lower:]')
 
 if [ "\$response" = "da" ]; then
 
