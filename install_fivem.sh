@@ -368,7 +368,7 @@ if [ -d "\$path" ]; then
 
         echo ""
 
-        echo "Puteti accesa serverul la IP: $ip"
+        echo "Puteti accesa serverul la IP: \$ip"
 
         echo ""
 
