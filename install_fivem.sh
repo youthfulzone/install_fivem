@@ -556,7 +556,7 @@ rm ~/ftp/server/\$name/fx.tar.xz
 
 rm -rf ~/runtime.fivem.net >/dev/null 2>&1
 
-version=\$(echo \$url | head -c 3)
+version=\$(echo \$url | head -c 4)
 
 echo \-e "Serverul a fost upgradat la ultima versiune disponibila: \033[1;36m\$version\033[0m."
 
