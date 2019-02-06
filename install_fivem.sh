@@ -235,7 +235,7 @@ wget --spider -r --no-parent https://runtime.fivem.net/artifacts/fivem/build_pro
 
 rm -rf ~/runtime.fivem.net/artifacts/fivem/build_proot_linux/master/revoked
 
-url=\$(ls ~/runtime.fivem.net/artifacts/fivem/build_proot_linux/master | tail -1)
+url=\$(ls ~/runtime.fivem.net/artifacts/fivem/build_proot_linux/master -t | tail -1)
 
 cd ~/ftp/server/\$name
 
@@ -544,7 +544,7 @@ wget --spider -r --no-parent https://runtime.fivem.net/artifacts/fivem/build_pro
 
 rm -rf ~/runtime.fivem.net/artifacts/fivem/build_proot_linux/master/revoked
 
-url=\$(ls ~/runtime.fivem.net/artifacts/fivem/build_proot_linux/master | tail -1)
+url=\$(ls ~/runtime.fivem.net/artifacts/fivem/build_proot_linux/master -t | tail -1)
 
 cd ~/ftp/server/\$name
 
@@ -556,7 +556,7 @@ rm ~/ftp/server/\$name/fx.tar.xz
 
 rm -rf ~/runtime.fivem.net >/dev/null 2>&1
 
-version=\$(echo \$url | head -c 4)
+version=\$(echo \$url | head -c 3)
 
 echo \-e "Serverul a fost upgradat la ultima versiune disponibila: \033[1;36m\$version\033[0m."
 
