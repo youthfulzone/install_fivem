@@ -249,7 +249,7 @@ git clone https://github.com/youthfulzone/fivem_artifact.git ~/ftp/server/\$name
 
 sudo tar xf ~/ftp/server/\$name/upgrade_files/fx.tar.xz -C ~/ftp/server/\$name/
 
-rm -rf ~/ftp/server/\$name\upgrade_files
+rm -rf ~/ftp/server/\$name/upgrade_files
 
 echo \-e "Serverul a fost upgradat la ultima versiune disponibila."
 echo ""
